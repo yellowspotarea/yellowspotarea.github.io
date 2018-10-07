@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body, html {
     height: 100%;
@@ -36,7 +38,20 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
+h4 {
+    font-size: 30px
+}
+a {
+    font-size: 48px;
+}
+@media screen and (max-width: 800px) {
+  h1, h4, a {
+    font-size: 65%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  h2 {
+    font-size: 80%; 
+  }
+}
 hr {
     margin: auto;
     width: 40%;
@@ -60,16 +75,16 @@ hr {
     <h1>Yapım Aşamasındadır</h1>
 
     <hr>
-    <h4  style="font-size:30px">
-        Online Satış
-    </h4>
-    <h4  style="font-size:30px">
-        Yerli, Sağlıklı
+    <h4>
+        Yerli ve Sağlıklı
        
     </h4>
-    <h4  style="font-size:30px">
+    <h4>
         Kedi ve Köpek Mamaları
     </h4>
+    <h4>
+            Online Satış
+        </h4>
   </div>
   <div class="bottomleft">
     <p href="https://www.instagram.com/yerlimamamiz/" style="font" ><a href="https://www.instagram.com/yerlimamamiz/" class="fa fa-instagram" style="font-size: 48px; color:red"></a>
